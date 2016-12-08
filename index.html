@@ -5,12 +5,78 @@
     <title>Intro to jQuery</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
 </head>
 <body>
-    <h1>Introduction to jQuery</h1>
-    <div class="box">
-
-    </div>
+    <h1>jQuery selectors</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda commodi cumque dignissimos est illum maiores sequi totam? Aliquam aperiam aspernatur at atque
+        commodi deserunt doloremque ea eius est eveniet ex <em>exercitationem</em> expedita facilis, fugit illo illum inventore iure minus, natus nemo non odit placeat quidem quo
+        reprehenderit rerum sapiente sint sunt veritatis voluptates! Eius mollitia, odio? At atque beatae fuga molestias officiis, quas sapiente sunt voluptas voluptatem?
+        Architecto consequuntur deserunt earum error illo mollitia quidem sed? Ab autem dolore doloremque dolores eaque eius <em>exercitationem</em> harum labore, magnam numquam
+        quo,
+        repellendus tempore veritatis? Aperiam, eum numquam possimus quae repellat vel!</p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p class="overflow"></p>
+    <table>
+        <tr>
+            <th>Selector</th>
+            <th>Description</th>
+        </tr>
+        <tr class="selectors">
+            <td>.className</td>
+            <td>Selects all elements with the specified class</td>
+        </tr>
+        <tr class="selectors">
+            <td>#idName</td>
+            <td>Selects an element with the specified ID</td>
+        </tr>
+        <tr class="selectors">
+            <td>*</td>
+            <td>Universal selector: selects every element in the document</td>
+        </tr>
+        <tr class="selectors">
+            <td>element</td>
+            <td>Selects every element of the specified type</td>
+        </tr>
+        <tr class="selectors">
+            <td>parent > child</td>
+            <td>Selects all children of the parent element</td>
+        </tr>
+        <tr class="selectors">
+            <td>ancestor descendant</td>
+            <td>Selects all descendants of the parent element</td>
+        </tr>
+        <tr class="selectors">
+            <td>previous + next</td>
+            <td>Selects the next sibling of the prevoius element</td>
+        </tr>
+        <tr class="selectors">
+            <td>previous ~ sibling</td>
+            <td>Selects all siblings of the element</td>
+        </tr>
+        <tr class="filters">
+            <td>:odd</td>
+            <td>Filters the current selector to only include odd numbered elements</td>
+        </tr>
+        <tr class="filters">
+            <td>:even</td>
+            <td>Filters the current selector to only include the even numbered matches</td>
+        </tr>
+        <tr class="filters">
+            <td>:first</td>
+            <td>Filters the current selector to only include the first match</td>
+        </tr>
+        <tr class="filters">
+            <td>:parent</td>
+            <td>Filters the current selector to only include the element if it is an element of that type AND a parent</td>
+        </tr>
+        <tr class="filters">
+            <td>:not()</td>
+            <td>Filters the current selector so that it doesn't include the selector passed to not() as an argument</td>
+        </tr>
+    </table>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
